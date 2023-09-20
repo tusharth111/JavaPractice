@@ -21,11 +21,10 @@ public class SumOfFirstLastDigits {
 	     int lastDigit = positiveNumber % 10;
 	     int firstDigit = 0;
 
-	     while (positiveNumber > 0) 
-	     {
-	    	 firstDigit = positiveNumber;
-	         positiveNumber /= 10;
-	     }
+	     while(number!=0) {
+	            firstDigit = number%10;
+	            number /= 10;
+	        }
 
 	        // Print the results
 	     System.out.println("First digit: " + firstDigit);
