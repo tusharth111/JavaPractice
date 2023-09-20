@@ -1,4 +1,6 @@
 package Java_training;
+
+
 import java.util.Scanner;
 public class SumOfOddNumbers {
 	//Print the Sum of all the Odd Numbers from 1 to n 
