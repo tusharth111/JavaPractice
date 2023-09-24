@@ -1,6 +1,16 @@
-package com.practice;
+package Java_training;
+/*
+      *
+     **
+    ***
+   ****
+  *****
+    
+    
+ */
 
-public class StarleftProgram {
+public class LeftTrianglePattern {
+
 	public static void main(String[] args) {
 		 int k = 5;
 		 int a, b;
@@ -18,3 +28,8 @@ public class StarleftProgram {
 	     }
 	  }
 	}
+
+
+	}
+
+}
