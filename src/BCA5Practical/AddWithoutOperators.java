@@ -1,5 +1,5 @@
 package BCA5Practical;
-
+//Program 25 from basic construct 
 public class AddWithoutOperators {
     public static int add(int a, int b) {
         while (b != 0) {
@@ -9,7 +9,6 @@ public class AddWithoutOperators {
         }
         return a;
     }
-
     public static void main(String[] args) {
         int num1 = 5;
         int num2 = 7;

@@ -1,5 +1,6 @@
 package com.practice;
-//Question: Sum of some elements from the array is equal to the target number 
+//Question: Sum of some elements from the array is equal to the target number
+//Get the index of the elements which we use to get the target 
 public class Question 
 {
 	int[] fun(int arr[],int target)
@@ -28,8 +29,7 @@ public class Question
 		int i;
 		for(i =0;i<brr.length;i++) 
 		{
-			System.out.println(brr[i]);
+			System.out.print("These are the elements added to the target: "+brr[i]+" ");
 		}	
 	}
-
 }
