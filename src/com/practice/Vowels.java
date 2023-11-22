@@ -1,7 +1,8 @@
 package com.practice;
+//To count the number of vowels in the string 
 
-public class Vowels {
-
+public class Vowels 
+{
 	int fun(String str) 
 	{
 		int i,c=0;
